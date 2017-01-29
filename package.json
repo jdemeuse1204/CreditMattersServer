@@ -1,26 +1,19 @@
 {
-  "name": "hapi-creditmatters-server",
+  "name": "express-creditmatters-server",
   "version": "1.0.0",
   "description": "Nodejs server for credit matters",
-  "main": "dist/main.js",
   "scripts": {
-    "start": "npm run server:dev"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jdemeuse1204/CreditMattersServer.git"
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "debug": "^2.6.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "lusca": "^1.4.1",
+    "serve-favicon": "^2.3.2"
   },
-  "keywords": [
-    "hapi",
-    "server"
-  ],
-  "license": "CC0-1.0",
-  "author": "James DeMeuse",
-  "contributors": [],
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
 }
