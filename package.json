@@ -7,11 +7,18 @@
   },
   "dependencies": {
     "body-parser": "^1.16.0",
+    "connect": "^3.6.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
     "debug": "^2.6.0",
     "ejs": "^2.5.5",
     "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.3",
+    "helmet": "^3.6.1",
     "lusca": "^1.4.1",
-    "serve-favicon": "^2.3.2"
+    "serve-favicon": "^2.3.2",
+    "session-memory-store": "^0.2.2"
   },
   "devDependencies": {
     "express": "^4.14.0"
